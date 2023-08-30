@@ -149,7 +149,7 @@ export const projects: IProject[] = [
 	},
 	{
 		id: 5,
-		title: 'I Tech Landing Page Using React',
+		title: 'I-Tech Landing Page Using React',
 		description:
 			'The landing page contains 11 sections. hero, companies, features, feature one, feature two, feature three, app integrations, app images, reviews, social, download. I improved Tailwindcss skills by creating this app.',
 		image: itech,

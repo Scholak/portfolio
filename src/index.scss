@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
+$color-black: #000000;
 $color-dark: #11071F;
 $color-dark-blue: #1A0B2E;
 $color-white: #e2e2e2;
@@ -21,7 +22,7 @@ html {
 
 body {
   font-family: 'Poppins', sans-serif;
-  background: $color-dark;
+  background: linear-gradient(to bottom, $color-dark, darken($color-purple, 25%), $color-dark-blue, darken($color-purple, 25%), $color-dark);
 }
 
 a {
@@ -298,14 +299,15 @@ section {
       border-radius: 12px;
       background: $color-dark-blue;
       color: $color-white;
-      
+      box-shadow: 0 8px 24px $color-black;
+
+      h4 {
+        font-size: 24px;
+        margin-bottom: 4px;
+      }
       
       h5 {
         font-weight: 300;
-      }
-      
-      h4 {
-        font-size: 20px;
       }
     }
   }
@@ -338,6 +340,7 @@ section {
       background: linear-gradient(130deg, #130428 7.29%, #251043 34.38%, #38126D 56.77%, #261045 84.90%, #190634 100%);
       box-shadow: 4px 7px 26px 0px rgba(0, 0, 0, 0.12);
       color: $color-white;
+      box-shadow: 0 8px 24px $color-black;
       
       h4 {
         font-size: 20px;
@@ -406,6 +409,7 @@ section {
       background: $color-dark-blue;
       color: $color-white;
       font-size: 40px;
+      box-shadow: 0 0 32px $color-black;
     }
   }
 }

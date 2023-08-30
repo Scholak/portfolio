@@ -5,7 +5,7 @@ const Navbar = () => {
 
   return (
 		<>
-			<nav className={open ? 'navbar open' : 'navbar'}>
+			<nav className={open ? 'navbar open' : 'navbar'} onClick={() => setOpen(false)}>
 				<h2 className='logo'>
 					<a href='/'>Scholak</a>
 				</h2>

@@ -299,7 +299,7 @@ section {
       border-radius: 12px;
       background: $color-dark-blue;
       color: $color-white;
-      box-shadow: 0 8px 24px $color-black;
+      box-shadow: 0 4px 12px $color-black;
 
       h4 {
         font-size: 24px;
@@ -338,9 +338,8 @@ section {
       padding: 32px;
       border-radius: 15px;
       background: linear-gradient(130deg, #130428 7.29%, #251043 34.38%, #38126D 56.77%, #261045 84.90%, #190634 100%);
-      box-shadow: 4px 7px 26px 0px rgba(0, 0, 0, 0.12);
       color: $color-white;
-      box-shadow: 0 8px 24px $color-black;
+      box-shadow: 0 4px 12px $color-black;
       
       h4 {
         font-size: 20px;
@@ -409,7 +408,7 @@ section {
       background: $color-dark-blue;
       color: $color-white;
       font-size: 40px;
-      box-shadow: 0 0 32px $color-black;
+      box-shadow: 0 0 16px $color-black;
     }
   }
 }
